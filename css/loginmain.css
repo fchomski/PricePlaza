@@ -1,0 +1,47 @@
+fieldset {
+    border: 0px;
+    position: fixed;
+    top:30%;
+    left:40%;
+}
+
+p {
+    margin-top: 2em;
+}
+
+label {
+    margin-right: 2.3em;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    border-radius: 0.2em;
+}
+
+#emailID {
+    margin-right: 4.2em;
+}
+
+h1 {
+    /*Add backup font for devices without this font or change to an image*/
+    font-family: Futura BK;
+    margin-left: 1em;
+}
+
+button {
+    padding: 0.7em;
+    border: none;
+    border-radius: 0.2em;
+    width : 150px;
+    font-family: Futura BK, Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 1em;
+    outline: none;
+    position: relative;
+    left: 22%;
+}
+
+button:hover {
+    background-color: #C5C8EA;
+}

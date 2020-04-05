@@ -1,0 +1,66 @@
+fieldset {
+    border: 0px;
+    position: fixed;
+    top:20%;
+    left:40%;
+}
+
+p {
+    margin-top: 2em;
+}
+
+label {
+    margin-right: 3.5em;
+    font-family: Arial, sans-serif;
+}
+
+#emailID {
+    margin-right: 5.8em;
+}
+
+#pwd {
+    margin-right: 3.9em;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    border-radius: 0.2em;
+}
+
+h1 {
+    /*TODO: Add backup font for devices without this font*/
+    font-family: Futura BK;
+    margin-left: 1.1em;
+}
+
+button {
+    width: 500px;
+    padding: 0.7em;
+    border: none;
+    border-radius: 0.2em;
+    outline: none;
+    width : 150px;
+    font-family: Futura BK, Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 2em;
+    margin-left: -0.3em;
+}
+
+/*This button shifts around strangely as screen size changes...*/
+#stubbornButton {
+    position: absolute;
+    top: 65.4%;
+    left: 51.3%;
+}
+
+a:link {
+    color : #292A2D;
+}
+
+a:visited {
+    color : #5A5D84;
+}
+
+button:hover {
+    background-color: #C5C8EA;
+}

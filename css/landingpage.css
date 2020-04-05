@@ -1,0 +1,44 @@
+h1 {
+    position: absolute;
+    left: 34%;
+    top: 27%;
+    font-family: Futura BK;
+    font-size: 75pt;
+}
+
+/*TODO: Mess around with button spacing and sizing so they align under the site title*/
+#buttons{
+    position: absolute;
+    display: inline;
+    top:52%;
+    left:33%;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 0.7em;
+    margin : 0.5em;
+    border: none;
+    border-radius: 0.2em;
+    width : 150px;
+    font-size: 15px;
+    outline: none;
+}
+
+a {
+    padding: 1em;
+    font-family: 'Nirmala UI', Arial, sans-serif;
+}
+
+a:link {
+    color : #292A2D;
+}
+
+a:visited {
+    color : #5A5D84;
+}
+
+button:hover {
+    background-color: #C5C8EA;
+}

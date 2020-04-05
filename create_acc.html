@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang = "en">
+    <meta charset="utf-8">
+    <title>Create Account - Price Plaza</title>
+    <link rel = "stylesheet" href = "css/createacc.css"/>
+</head>
+<body>
+    <form method="POST" action="http://www.randyconnolly.com/tests/process.php">
+        <fieldset>
+            <h1>Create Account</h1>
+            <p>
+                <label>First Name</label>
+                <input type = "text" name = "fName"/>
+            </p>
+            <p>
+                <label>Last Name</label>
+                <input type = "text" name = "lName"/>
+            </p>
+            <p>
+                <label id="emailID">Email</label>
+                <input type = "email" name = "email"/>
+            </p>
+            <p>
+                <label id="pwd">Password</label>
+                <input type="password" name = "password"/>
+            </p>
+            <p>
+                <label>Upload Profile Picture: </label><br><br>
+                <input type="file" name="photo"/>
+            </p>
+
+            <!--FIX CSS FOR THIS, MAKE IT SO THIS AND USE AS GUEST BUTTON ARE ON THE SAME ROW
+                LIKELY WON'T NEED THE DIV ID = "BUTTONS"-->
+            <button>Create Account</button>
+        </fieldset>
+    </form>
+    <button id="stubbornButton"><a href = "site_home.html"style="text-decoration: none">Use As Guest</a></button>
+</body>
+</html>

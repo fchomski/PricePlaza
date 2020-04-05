@@ -1,0 +1,46 @@
+fieldset {
+    border: 0px;
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+
+p {
+    margin-top: 2em;
+}
+
+label {
+    margin-right: 2em;
+    font-family: Arial, sans-serif;
+}
+
+#pWord {
+    margin-right: 2.5em;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    border-radius: 0.2em;
+}
+
+h1 {
+    /*Add backup font for devices without this font or change to an image*/
+    font-family: Futura BK;
+}
+
+button {
+    position: relative;
+    padding: 0.7em;
+    border: none;
+    border-radius: 0.2em;
+    width : 150px;
+    font-family: Futura BK, sans-serif;
+    font-size: 15px;
+    outline: none;
+    margin-top: 1em;
+    left: 22%;
+}
+
+button:hover {
+    background-color: #C5C8EA;
+}
