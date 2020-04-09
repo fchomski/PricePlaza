@@ -6,16 +6,16 @@
     <link rel = "stylesheet" href = "css/loginmain.css"/>
 </head>
 <body>
-    <form method="POST" action="http://www.randyconnolly.com/tests/process.php">
+    <form method="POST" action="php/loginUser.php">
         <fieldset>
             <h1>Welcome Back!</h1>
             <p>
                 <label id="emailID">Email</label>
-                <input type = "email" name = "email"/>
+                <input type = "email" name = "email" required/>
             </p>
             <p>
                 <label>Password</label>
-                <input type = "password" name = "password"/>
+                <input type = "password" name = "password" required/>
             </p>
             <button>Sign In</button>
         </fieldset>
